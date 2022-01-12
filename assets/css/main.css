@@ -3070,7 +3070,7 @@ table.alt tfoot {
 
 @media screen and (max-width: 736px) {
     .wrapper>.inner {
-        padding: 3em 2em 1em 2em;
+        padding: 1.5em 2em 2em 2em;
     }
 }
 
