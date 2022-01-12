@@ -1833,10 +1833,18 @@ button:hover:active:after,
     /* text-indent: 4%; */
 }
 
-.features section ul.courses {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+.features section div.coursework {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features section div.coursework h4 {
+    text-align: center;
+}
+
+.features section div.coursework div {
+    width: 50%;
+    padding: 0 2em;
 }
 
 .features section div.skills {
@@ -2062,6 +2070,12 @@ button:hover:active:after,
         left: 1.5em;
         top: 2em;
     }
+    .features section div.coursework {
+        display: block;
+    }
+    .features section div.coursework div {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -2072,11 +2086,6 @@ button:hover:active:after,
         left: 0;
         position: relative;
         top: 0;
-    }
-    .features section ul.courses {
-        columns: 1;
-        -webkit-columns: 1;
-        -moz-columns: 1;
     }
 }
 
