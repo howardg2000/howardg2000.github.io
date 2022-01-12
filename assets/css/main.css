@@ -326,15 +326,15 @@ h1.major:after {
 }
 
 h2 {
-    font-size: 1.75em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 h5 {
@@ -1851,6 +1851,18 @@ button:hover:active:after,
 .features section div.skills div {
     width: 33%;
     padding: 0 1em;
+}
+
+.features .proficient h4 {
+    color: rgb(41, 114, 10);
+}
+
+.features .intermediate h4 {
+    color: yellow;
+}
+
+.features .developing h4 {
+    color: rgb(147, 9, 9);
 }
 
 .features section:nth-child(-n + 2) {
