@@ -2052,6 +2052,22 @@ button:hover:active:after,
     }
 }
 
+@media screen and (max-width: 600px) {
+    .features section {
+        padding: 1.5em 2em;
+    }
+    .features section .icon {
+        left: 0;
+        position: relative;
+        top: 0;
+    }
+    .features section ul.courses {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .features section {
         padding: 1.5em 2em;
@@ -2060,6 +2076,13 @@ button:hover:active:after,
         left: 0;
         position: relative;
         top: 0;
+    }
+    .features section div.skills {
+        display: block;
+    }
+    .features section div.skills div {
+        width: 100%;
+        padding: 0 1em;
     }
 }
 
@@ -3119,7 +3142,7 @@ body.is-ie .wrapper.fullscreen {
 @media screen and (max-width: 736px) {
     .wrapper.fullscreen {
         padding: 2em 0;
-        min-height: 0;
+        min-height: 100vh;
     }
     body.is-ie .wrapper.fullscreen {
         height: auto;
